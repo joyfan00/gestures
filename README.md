@@ -5,23 +5,20 @@ To run, use the following commands:
 First, go to your src folder in your ros workspace. Then, clone the repository. This is assuming that you are in your ros_ws to start out. 
 
 ```bash
-<br>ls src </br>
-<br>git clone ________ </br>
+ls src 
+git clone ________ 
 ```
 
 Then, in your ros_ws directory, compile your workspace using the catkin_make command. 
 
 ```bash
-<br> catkin_make </br>
+catkin_make
 ```
 
-Lastly, in your ros_ws directory, run the gesture using rosrun. 
+Lastly, in your ros_ws directory, run the gesture using rosrun. Here is an example: 
 
 ```bash
-<br>rosrun gestures wave.py</br>
-<br>rosrun gestures thumbsup.py</br>
-<br>rosrun gesture high_five.py </br>
-<br>rosrun gesture handshake.py </br>
+rosrun gestures wave.py
 ```
-
+This similar format also works for high_five.py, handshake.py, and thumbsup.py.
 
