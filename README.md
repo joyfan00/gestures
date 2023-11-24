@@ -2,18 +2,26 @@
 This is a repository containing gestures for the Baxter robot (wave, high five, handshake, and thumbs up). 
 
 To run, use the following commands: 
-First, place into your src folder in your ros workspace. 
+First, go to your src folder in your ros workspace. Then, clone the repository. This is assuming that you are in your ros_ws to start out. 
 
-ls src
-git clone ________
+'''
+<br>ls src
+<br>git clone ________
+'''
 
-Then, in your ros workspace directory, compile your workspace using the catkin_make command. 
+Then, in your ros_ws directory, compile your workspace using the catkin_make command. 
 
-Lastly, run the gesture using rosrun. 
+'''
+<br> catkin_make
+'''
 
-rosrun gestures wave.py
-\nrosrun gestures thumbsup.py
-\nrosrun gesture high_five.py
-\nrosrun gesture handshake.py
+Lastly, in your ros_ws directory, run the gesture using rosrun. 
+
+'''
+<br>rosrun gestures wave.py
+<br>rosrun gestures thumbsup.py
+<br>rosrun gesture high_five.py
+<br>rosrun gesture handshake.py
+'''
 
 
