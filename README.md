@@ -6,7 +6,7 @@ First, go to your src folder in your ros workspace. Then, clone the repository. 
 
 ```bash
 ls src 
-git clone ________ 
+git clone https://github.com/joyfan00/Gestures.git
 ```
 
 Then, in your ros_ws directory, compile your workspace using the catkin_make command. 
