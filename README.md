@@ -12,8 +12,8 @@ Then, in your ros workspace directory, compile your workspace using the catkin_m
 Lastly, run the gesture using rosrun. 
 
 rosrun gestures wave.py
-rosrun gestures thumbsup.py
-rosrun gesture high_five.py
-rosrun gesture handshake.py
+\nrosrun gestures thumbsup.py
+\nrosrun gesture high_five.py
+\nrosrun gesture handshake.py
 
 
